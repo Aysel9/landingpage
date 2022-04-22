@@ -1,0 +1,54 @@
+.Section6{
+	background-color: #000000;
+	color: white;
+	// background-image: url("https://i.ibb.co/5xRn895/galaxy-3.png");
+	// // background-color: #cccccc; /* Used if the image is unavailable */
+	height: 1498px; /* You must set a specified height */
+	// background-position: center; /* Center the image */
+	// background-repeat: no-repeat; /* Do not repeat the image */
+	// background-size: cover; /* Resize the background image to cover the entire container */
+
+	.chart-lagrange{
+		display: grid;
+		align-items:center;
+		justify-content: flex-end;
+		grid-template-columns: clamp(320px, 45.4166vw, 654px) clamp(300px, 44.0277vw, 634px);
+		.chart-pro{
+			right: -25%;
+			top: 0%;
+			transform: translate(25%, 0%);
+			z-index: 10;
+		}
+		.lagrange-plnt{
+			background-image: url("https://i.ibb.co/L5bbk7Q/planet-4.png");
+			height: clamp(300px, 44.0277vw, 634px);
+			background-position: center;
+			background-repeat: no-repeat; 
+			background-size: 150%; 
+		}
+	}
+	.orderbook-pro-vers{
+		border: 1px solid red;
+		display: grid;
+		align-items:center;
+		justify-content: space-between;
+		grid-template-columns: clamp(250px, 23.3333vw, 336px) clamp(450px, 59.4444vw, 856px);
+		padding: 0px 124px 0px 83px;
+		.order-img{
+			background-image: url("https://i.ibb.co/RP6rNcL/proversion2.png");
+			height: clamp(300px, 29.7916vw, 429px); 
+			background-position: center; 
+			background-repeat: no-repeat; 
+			background-size: cover;
+		}
+		.pro-vers-text{
+			height: clamp(300px, 29.7916vw, 429px);
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			justify-content: flex-start;
+
+		}
+	}
+
+}
