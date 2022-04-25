@@ -1,3 +1,5 @@
+import FooterLandingPage from './FooterLandingPage'
+
 const Section6 = () => {
 	return(
 		<div className="Section6">
@@ -23,12 +25,12 @@ const Section6 = () => {
 					</div>
 					<div className="sosial-media-part">
 						<div className="twitter-follow">
-							<i class="fa-brands fa-twitter-square"></i>
+							<i className="fa-brands fa-twitter-square"></i>
 							<div>
 								<p className="twitter-title">Twitter</p> 
 								<p className="twitter-text">Follow @lagrange to het the lstest news and updates</p>
 							</div>
-							<i class="fa-solid fa-arrow-up-right-from-square"></i>
+							<i className="fa-solid fa-arrow-up-right-from-square"></i>
 						</div>
 						<div className="discord-follow">
 							<i className="fa-brands fa-discord"></i>
@@ -36,7 +38,7 @@ const Section6 = () => {
 								<p className="discord-title">Discord</p> 
 								<p className="discord-text">Have a technical question?</p>
 							</div>
-							<i class="fa-solid fa-arrow-up-right-from-square"></i>
+							<i className="fa-solid fa-arrow-up-right-from-square"></i>
 						</div>
 						<div className="medium-follow">
 							<i className="fa-brands fa-medium"></i>
@@ -44,7 +46,7 @@ const Section6 = () => {
 								<p className="medium-title">Medium</p> 
 								<p className="medium-text">Deeper in our community</p>
 							</div>
-							<i class="fa-solid fa-arrow-up-right-from-square"></i>
+							<i className="fa-solid fa-arrow-up-right-from-square"></i>
 						</div>
 					</div>
 				</div>
@@ -53,9 +55,10 @@ const Section6 = () => {
 					<p className="recive-mini-cont">Duis aute irure dolor in reprehenderit in voluptate velit </p>
 					<div className="input-i">
 						<input placeholder="Your email" />
-						<i class="fa-solid fa-arrow-right"></i>
+						<i className="fa-solid fa-arrow-right"></i>
 					</div>
 				</div>
+				<FooterLandingPage />
 			</div>
 		</div>
 		)
